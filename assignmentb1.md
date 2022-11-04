@@ -52,6 +52,12 @@ library(digest)
 ## Exercise 1: Make a Function
 
 ``` r
+#' Calculate the mean value for different groups
+#' @details the function is aimed to firstly group the data by a property and then calculate the mean values of the grouped data.
+#' @param data is the data table we will focus on
+#' @param group is the property that user would like to group by.
+#' @param target is the target column that we want to calculate its mean value
+#' @return the mean values of different groups
 cal_mean <- function(data,group,target){
   data %>%
    dplyr::group_by(across(all_of(group))) %>% 
@@ -62,14 +68,7 @@ cal_mean <- function(data,group,target){
 
 ## Exercise 2: Document your Function
 
-``` r
-#' Calculate the mean value for different groups
-#' @details the function is aimed to firstly group the data by a property and then calculate the mean values of the grouped data.
-#' @param data is the data table we will focus on
-#' @param group is the property that user would like to group by.
-#' @param target is the target column that we want to calculate its mean value
-#' @return the mean values of different groups
-```
+See above.
 
 ## Exercise 3: Include examples
 
@@ -114,7 +113,7 @@ test_that("calculate the average diameters of different genuses", {
 })
 ```
 
-    ## Test passed 😀
+    ## Test passed 🥳
 
 ``` r
 #Vector with NA’s
@@ -136,7 +135,7 @@ test_that("calculate the average longitudes of different genuses", {
 })
 ```
 
-    ## Test passed 🌈
+    ## Test passed 🥇
 
 ``` r
 #Vector of length 0, like numeric(0).
