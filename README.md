@@ -1,7 +1,8 @@
 # STAT 545B Assignment 1 & 2: Making a function and an R package
 
-This repository is for STAT 545B assignment 1. This assignment covers making a function in R, documenting it, and testing it.
-
+This repository is for STAT 545B assignment b1 and b2. This repo consists of two assignments:
+* Assignment b1 covers making a function in R, documenting it, and testing it.
+* Assignment B2 covers wrapping the function into an R package  *[LinearModelSE](https://github.com/stat545ubc-2022/assignment-b1-and-b2-YuqingMa/tree/main/calmean)*
 
 
 ## Contents
