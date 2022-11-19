@@ -13,6 +13,13 @@ values.
 
 ## Installation
 
+You can install the development environment of calmean by:
+
+``` r
+# install.packages("devtools")
+devtools::install_github("stat545ubc-2022/assignment-b1-and-b2-YuqingMa/calmean")
+```
+
 Before get started, you need to install the following libraries.
 
 ``` r
