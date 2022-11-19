@@ -2,7 +2,7 @@
 
 This repository is for STAT 545B assignment b1 and b2. This repo consists of two assignments:
 * Assignment b1 covers making a function in R, documenting it, and testing it.
-* Assignment B2 covers wrapping the function into an R package  *[LinearModelSE](https://github.com/stat545ubc-2022/assignment-b1-and-b2-YuqingMa/tree/main/calmean)*
+* Assignment B2 covers wrapping the function into an R package  *[calmean](https://github.com/stat545ubc-2022/assignment-b1-and-b2-YuqingMa/tree/main/calmean)*
 
 
 ## Contents
