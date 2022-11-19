@@ -1,7 +1,0 @@
-"0","test_that(""calculate the average longitudes of different genuses"", {"
-"0","    expect_equal(real_res,expected_res)"
-"0","})"
-"1","[32mTest passed[39m 🥳"
-"1",""
-"1","
-"

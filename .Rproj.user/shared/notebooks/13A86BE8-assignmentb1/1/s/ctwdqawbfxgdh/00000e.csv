@@ -1,6 +1,0 @@
-"0","cal_mean <- function(data,group,target){"
-"0","  data %>%"
-"0","   dplyr::group_by(across(all_of(group))) %>% "
-"0","   dplyr::summarise(across(where(is.numeric),mean))"
-"0"," "
-"0","}"
