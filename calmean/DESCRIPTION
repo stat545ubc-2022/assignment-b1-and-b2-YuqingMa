@@ -1,0 +1,22 @@
+Package: calmean
+Title: Calculate the mean value for different groups
+Version: 0.1.0
+Authors@R: 
+    person(given = "Yuqing",
+           family = "Ma",
+           role = c("aut", "cre"),
+           email = "mayq2020@student.ubc.ca",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: The calmean package takes input of the data table, the the property that user would like to group by, and the target column that we want to calculate its mean value, then return a column of calculated mean values.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.2
+Imports: 
+    dplyr,
+    testthat,
+    tidyverse
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
